@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             array[i] = (int) (Math.random() * num);
         }
-        size.Max(array);
-        size.Min(array);
+        size.max(array);
+        size.min(array);
     }
 }

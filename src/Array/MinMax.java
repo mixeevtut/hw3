@@ -3,7 +3,7 @@ package Array;
 import java.lang.reflect.Array;
 
 public class MinMax {
-    void Max(int[] array){
+    void max(int[] array){
         int maxValue = array[0];
         for (int i = 0; i < array.length; i++) {
             if (maxValue < array[i]) {
@@ -12,7 +12,7 @@ public class MinMax {
         }
         System.out.println("Максимальное значение: " + maxValue);
     }
-    void Min (int [] array) {
+    void min(int [] array) {
         int minValue = array[0];
         for (int i = 0; i < array.length; i++) {
             if (minValue > array[i]) {

@@ -1,7 +1,7 @@
 package SimpleNum;
 
 public class SimpleNum {
-    void CheckEasy(int[] array) {
+    void checkEasy(int[] array) {
 //
 //        for (int j = 0; j < array.length; j++) {
 //            int a = array[j];
